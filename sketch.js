@@ -4,26 +4,26 @@ const NETWORK_SETTINGS = {
   connectionThreshold: 100, // Maximum distance for particle connections
   particleRadius: 5,
   particleSpeed: 2,
-  backgroundColor: 0, // Black background
-  particleColor: 200, // Light gray for regular particles
+  backgroundColor: 0,
+  particleColor: 200, // Gray
   
   // Cursor interaction settings
-  cursorInfluenceRadius: 100,  // How far the cursor affects particles
-  cursorRepulsionStrength: 2,  // How strongly particles are repelled
-  cursorHighlightColor: 255,   // White for cursor-affected particles
+  cursorInfluenceRadius: 100,  
+  cursorRepulsionStrength: 2,  
+  cursorHighlightColor: 255,   
   
   // Splice settings
-  maxParticles: 200,           // Maximum number of particles allowed
-  particleLifespan: 300,       // How long particles live (in frames) before being removed
-  spawnParticleCount: 5,       // How many particles to spawn on click
-  newParticleColor: 150,       // Medium gray for newly created particles
+  maxParticles: 200,           
+  particleLifespan: 300,       
+  spawnParticleCount: 5,       
+  newParticleColor: 150,       
   
   // Collision settings
-  collisionEnabled: true,      // Enable particle-to-particle collisions
-  collisionElasticity: 0.8,    // How elastic collisions are (0-1)
-  collisionDistance: 10,       // Minimum distance for collision detection
-  collisionHighlightDuration: 15, // How long to highlight colliding particles
-  collisionHighlightColor: 230 // Light gray for particles that recently collided
+  collisionEnabled: true,      
+  collisionElasticity: 0.8,   
+  collisionDistance: 10,       
+  collisionHighlightDuration: 15, 
+  collisionHighlightColor: 230 
 };
 
 // Main application class
